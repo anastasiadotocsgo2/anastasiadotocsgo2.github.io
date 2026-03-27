@@ -8,22 +8,28 @@
 
 <h1>Карта-изображение</h1>
 
-<img src="../images/map.gif" width="411" height="46" usemap="#map" alt="Навигация">
+<svg width="411" height="46">
+    <rect x="0" y="0" width="120" height="46" fill="#FFB7C5"/>
+    <rect x="120" y="0" width="90" height="46" fill="#FFA5B9"/>
+    <rect x="210" y="0" width="90" height="46" fill="#FF99AE"/>
+    <rect x="300" y="0" width="111" height="46" fill="#FF8DA3"/>
+</svg>
+
+<p>
+    <span style="background:#FFB7C5; padding:2px 8px;">⬤ Задание 1.1</span>
+    <span style="background:#FFA5B9; padding:2px 8px;">⬤ Задание 1.2</span>
+    <span style="background:#FF99AE; padding:2px 8px;">⬤ Задание 1.3</span>
+    <span style="background:#FF8DA3; padding:2px 8px;">⬤ Задание 1.4</span>
+</p>
 
 <map name="map">
-    <area shape="poly" alt="lab1_1" 
-    coords="210,27,203,9,202,6,197,2,192,1,120,1,115,2,110,6,112,9,119,27,119,32,211,32,210,27" 
-    href="lab1_1.html">
-    <area shape="poly" alt="lab1_2" 
-    coords="302,27,295,9,293,6,289,2,283,1,212,1,206,2,202,6,203,9,210,27,211,32,284,32,303,32,302,27" 
-    href="lab1_2.html">
-    <area shape="poly" alt="lab1_3" 
-    coords="302,27,303,32,394,32,393,27,386,9,382,3,375,1,303,1,298,2,293,6,295,9,302,27" 
-    href="lab1_3.html">
-    <area shape="default" alt="lab1_4" href="lab1_4.html">
+    <area shape="default" href="lab1_1.html">
+    <area shape="poly" coords="210,27,203,9,202,6,197,2,192,1,120,1,115,2,110,6,112,9,119,27,119,32,211,32,210,27" href="lab1_2.html">
+    <area shape="poly" coords="302,27,295,9,293,6,289,2,283,1,212,1,206,2,202,6,203,9,210,27,211,32,284,32,303,32,302,27" href="lab1_3.html">
+    <area shape="poly" coords="302,27,303,32,394,32,393,27,386,9,382,3,375,1,303,1,298,2,293,6,295,9,302,27" href="lab1_4.html">
 </map>
 
-<p><a href="../index.html">Вернуться к списку</a></p>
+<p><a href="../index.html">Вернуться</a></p>
 
 </body>
 </html>
