@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 5 - Форма регистрации</title>
+</head>
+<body>
+
+<h1>Форма регистрации пользователя</h1>
+
+<form method="post" action="#">
+
+    <p>Е-mail<br>
+        <input type="email" placeholder="Введите e-mail" required>
+    </p>
+
+    <p>Пароль<br>
+        <input type="password" placeholder="Введите пароль" required>
+    </p>
+
+    <p>Пол</p>
+    <p>
+        <input type="radio" name="gender" value="male"> Мужчина<br>
+        <input type="radio" name="gender" value="female"> Женщина
+    </p>
+
+    <p>Год рождения<br>
+        <select>
+            <option>1981</option>
+        </select> -й
+    </p>
+
+    <p>Я знаю</p>
+    <p>
+        <input type="checkbox" checked disabled> Русский<br>
+        <input type="checkbox"> Испанский<br>
+        <input type="checkbox"> Немецкий<br>
+        <input type="checkbox"> Английский<br>
+        <input type="checkbox"> Китайский
+    </p>
+
+    <p>Обо мне<br>
+        <textarea placeholder="Напишите коротко о себе" rows="5" cols="50"></textarea>
+    </p>
+
+    <p>
+        <button type="submit">Готово</button>
+        <button type="reset">Очистить</button>
+    </p>
+
+</form>
+
+</body>
+</html>
