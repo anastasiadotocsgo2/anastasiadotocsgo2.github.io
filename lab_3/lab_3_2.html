@@ -1,76 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Стили — эксперименты</title>
     
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            background-color: white;
-            background-image: url('pattern.png');
-            background-repeat: repeat;
-            background-attachment: fixed;
-            color: black;
-            font-size: 1.5rem;
-            line-height: 2rem;
-        }
-        
-        .wrapper {
-            max-width: 960px;
-            margin-left: auto;
-            margin-right: auto;
-            padding-left: 10px;
-            padding-right: 10px;
-            background-color: transparent;
-        }
-        
-        p {
-            text-align: right;
-        }
-        
-        h1, h2, h3, h4, h5, h6 {
-            text-align: right;
-            font-family: 'Roboto', sans-serif;
-            color: red;
-        }
-        
-        em {
-            color: green;
-            font-style: italic;
-        }
-        
-        strong {
-            font-family: 'Caveat', cursive;
-        }
-        
-        article {
-            border: 2px solid #ffaa44;
-            border-radius: 15px;
-            margin: 20px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
-        }
-    </style>
+    <!-- Подключаем style.css -->
+    <link rel="stylesheet" href="style.css">
     
+    <!-- Google Fonts: Roboto и Caveat -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
     
+    <!-- MathJax для формул -->
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
     
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
-    
 </head>
-
 <body>
     <div class="wrapper">
         <article>
@@ -84,7 +34,9 @@
                 числа людей.</p>
             <p><strong>Лу Гринзоу</strong></p>
         </article>
+        
         <hr>
+        
         <article>
             <h1>Великая теорема Ферма</h1>
             <p><b>Великая теорема Ферма́</b> (или <b>последняя теорема Ферма</b>)&nbsp;— одна из самых популярных теорем
@@ -101,5 +53,4 @@
         </article>
     </div>
 </body>
-
 </html>
