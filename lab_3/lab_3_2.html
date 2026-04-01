@@ -5,26 +5,38 @@
     <meta charset="UTF-8">
     <title>Стили — эксперименты</title>
     
-    <link rel="stylesheet" href="style.css">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
-    
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
-    
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="manifest" href="site.webmanifest">
-    
     <style>
         body {
+            background-color: white;
+            color: black;
+            font-size: 1.5rem;
+            line-height: 2rem;
             background-image: url('pattern.png');
             background-repeat: repeat;
         }
         
+        .wrapper {
+            max-width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: white;
+        }
+        
+        p {
+            text-align: right;
+        }
+        
         h1, h2, h3, h4, h5, h6 {
+            text-align: right;
             font-family: 'Roboto', sans-serif;
+            color: red;
+        }
+        
+        em {
+            color: green;
+            font-style: italic;
         }
         
         strong {
@@ -40,8 +52,19 @@
         }
     </style>
     
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    
 </head>
-<body style="color: black;">
+
+<body>
     <div class="wrapper">
         <article>
             <h1>Приватные и публичные программы</h1>
