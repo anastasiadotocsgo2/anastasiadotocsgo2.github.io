@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <link rel="icon" type="image/x-icon" href="img/макс1.jpg">
+  <link rel="icon" type="image/x-icon" href="img/1.jpg">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Кот Макс | Официальный сайт</title>
+  <title>Кот Макс</title>
   
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
@@ -15,94 +15,40 @@
   <script src="js/bootstrap.min.js"></script>
   
   <style>
-    /* НОВЫЕ ЦВЕТА: нежно-розовый + шоколадно-коричневый */
-    body {
-      background-color: #fffaf8;
-    }
     .clearfix::after {
       content: "";
       display: table;
       clear: both;
     }
     
-    /* Кнопки — шоколадный цвет */
-    .btn-danger {
-      background-color: #6B3E26 !important;
-      border-color: #5C2E1A !important;
-    }
-    .btn-danger:hover {
-      background-color: #5C2E1A !important;
-    }
-    
-    /* Заголовки h2 и h3 — шоколадный оттенок */
-    h2, h3, .h2, .h3 {
-      color: #5C2E1A;
-    }
-    
-    /* Ссылки в навбаре при наведении */
-    .navbar-default .navbar-nav > li > a:hover,
-    .navbar-default .navbar-nav > .active > a {
-      color: #6B3E26 !important;
-      background-color: #FFE4E1 !important;
-    }
-    
-    /* Блоки method и work — нежно-розовый фон */
-    #method .row, #work .row {
-      background: #FFE4E1 !important;
-    }
-    
-    /* Стили для списков (методов и работ) */
     .method-list, .work-list {
       list-style: none;
       margin: 15px;
       padding: 10px;
-      box-shadow: 0 0 5px #d4a373;
+      box-shadow: 0 0 5px #aaa;
       background: #FFF;
-      border-radius: 20px;
+      border-radius: 3px;
       overflow: hidden;
     }
+    
     .method-list .list1_img, .work-list .work_img {
       float: left;
       width: 36%;
     }
+    
     .method-list .list1_desc, .work-list .work_desc {
       float: left;
       width: 61%;
       margin-left: 1em;
     }
+    
     .work-list .work_desc {
       width: 20%;
       min-width: 100px;
     }
+    
     .work-list .work_img {
       width: 75%;
-    }
-    
-    /* Подвал — тёмно-шоколадный */
-    footer div {
-      background: #3D1F0F !important;
-      color: #FFE4E1 !important;
-    }
-    footer a {
-      color: #FFD9E6 !important;
-    }
-    
-    /* Иконки соцсетей в шапке */
-    #contacts a {
-      color: #6B3E26 !important;
-    }
-    #contacts a:hover {
-      color: #5C2E1A !important;
-    }
-    
-    /* Баннер текст */
-    #bannertext small {
-      color: #FFD9E6 !important;
-    }
-    
-    /* Горизонтальная линия */
-    hr {
-      border-color: #d4a373;
     }
     
     @media (max-width: 768px) {
@@ -118,21 +64,19 @@
 <body>
   <div class="container">
     
-    <!-- ========= ШАПКА ========= -->
     <header style="padding-top:5px;">
       <div id="logo" style="float:left">
-        <img src="img/макс1.jpg" alt="Кот Макс" style="width:80px; border-radius:50%; border:3px solid #6B3E26;">
+        <img src="img/1.jpg" alt="Кот Макс" style="width:80px; border-radius:50%;">
       </div>
       <div id="contacts" style="float:right;">
         <i class="fa fa-phone fa-lg"></i> 8-996-349-0367 |
         <i class="fa fa-envelope fa-lg"></i> makaroshka777@mail.ru
-        <a href="#" style="margin-left:10px;"><i class="fa fa-telegram fa-2x"></i></a>
-        <a href="#" style="margin-left:5px;"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="#" style="margin-left:10px; color:black;"><i class="fa fa-telegram fa-2x"></i></a>
+        <a href="#" style="margin-left:5px; color:black;"><i class="fa fa-instagram fa-2x"></i></a>
       </div>
       <div class="clearfix"></div>
     </header>
 
-    <!-- ========= МЕНЮ ========= -->
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu">
@@ -144,7 +88,7 @@
       </div>
       <div class="collapse navbar-collapse" id="bs-menu">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Мур-главная</a></li>
+          <li class="active"><a href="#">Главная</a></li>
           <li><a href="#main">О коте</a></li>
           <li><a href="#method">Распорядок дня</a></li>
           <li><a href="#work">Медиа</a></li>
@@ -157,12 +101,11 @@
       </div>
     </nav>
 
-    <!-- ========= БАННЕР ========= -->
     <div id="header-bottom" style="position:relative;">
-      <img src="img/макс2.jpg" style="width:100%; border-radius:20px;" alt="Кот Макс">
-      <div id="bannertext" style="position:absolute; top:10%; width:100%; text-align:center; color:#5C2E1A;">
+      <img src="img/2.jpg" style="width:100%;" alt="Кот Макс">
+      <div id="bannertext" style="position:absolute; top:10%; width:100%; text-align:center; color:white;">
         <div class="hidden-xs">
-          <h1>Кот Макс<br><small style="color: #6B3E26;">Профессиональный диванный эксперт</small></h1>
+          <h1>Кот Макс<br><small style="color: #ffd700;">Главный по дивану</small></h1>
         </div>
         <div class="hidden-sm hidden-md hidden-lg">
           <p class="lead">Кот Макс — лучший друг</p>
@@ -171,114 +114,110 @@
       </div>
     </div>
 
-    <!-- ========= БЛОК "О КОТЕ" (3 колонки) ========= -->
     <div id="main">
       <div class="row" style="text-align:center;">
-        <h2>🐾 О коте Максе 🐾</h2>
-        <p class="lead">Вкратце о главном коте дома</p>
+        <h2>🐾 О коте Максе</h2>
+        <p class="lead">Кто я и что люблю</p>
         <hr />
         
         <div class="col-md-4">
-          <img src="img/макс13.jpg" style="width:150px; border-radius:20px; border:3px solid #6B3E26;" alt="Макс и Настя">
-          <h3>Максим + Я</h3>
-          <p><strong>14 лет</strong><br>Знак зодиака: Скорпион<br>Родился: 30 октября 2011 года</p>
+          <img src="img/13.jpg" style="width:150px;">
+          <h3>Макс + Настя</h3>
+          <p><strong>14 лет</strong><br>Знак зодиака: Скорпион<br>Родился: 30.10.2011</p>
         </div>
         <div class="col-md-4">
-          <img src="img/макс7.jpg" style="width:150px; border-radius:20px; border:3px solid #6B3E26;" alt="Челка">
-          <h3>Стиль и характер</h3>
-          <p>Может носить мои волосы как челку. Очень привередливый — ест только из моей тарелки.</p>
+          <img src="img/7.jpg" style="width:150px;">
+          <h3>Характер</h3>
+          <p>Могу носить волосы как челку. Ем только из маминой тарелки. Очень привередливый.</p>
         </div>
         <div class="col-md-4">
-          <img src="img/макс3.jpg" style="width:150px; border-radius:20px; border:3px solid #6B3E26;" alt="Наглый">
+          <img src="img/3.jpg" style="width:150px;">
           <h3>Наглый, но любимый</h3>
-          <p>Лежит на моей одежде и требует внимания. Периодически абьюзит меня, но я всё равно его обожаю.</p>
+          <p>Лежу на одежде, требую внимания, периодически абьюжу. Но меня всё равно обожают.</p>
         </div>
       </div>
     </div>
 
-    <!-- ========= РАСПОРЯДОК ДНЯ ========= -->
     <div id="method">
-      <div class="row" style="text-align:center;">
-        <h2>⏰ Распорядок дня кота Макса ⏰</h2>
-        <p class="lead">Режим, которому я следую неукоснительно</p>
+      <div class="row" style="text-align:center; background:#f3f3f3;">
+        <h2>⏰ Распорядок дня</h2>
+        <p class="lead">Мой идеальный режим</p>
         <hr />
         
         <ul class="method-list">
-          <li class="list1_img"><img src="img/макс5.jpg" class="img-responsive" alt="Сладко спит"></li>
+          <li class="list1_img"><img src="img/5.jpg" class="img-responsive" alt="Утро"></li>
           <li class="list1_desc">
-            <h3>🌅 6:00 — Утренний ритуал</h3>
-            <p>Встать, потоптаться по хозяйке, побежать покушать, вернуться и получить утреннюю порцию обнимашек.</p>
+            <h3>🌅 6:00 — Утро</h3>
+            <p>Встать, потоптаться по хозяйке, побежать покушать, вернуться и получить обнимашки.</p>
           </li>
           <div class="clearfix"></div>
         </ul>
 
         <ul class="method-list">
-          <li class="list1_img"><img src="img/макс4.jpg" class="img-responsive" alt="На одежде"></li>
+          <li class="list1_img"><img src="img/4.jpg" class="img-responsive" alt="Одежда"></li>
           <li class="list1_desc">
             <h3>☀️ 8:00 — Важные дела</h3>
-            <p>Получить обнимашки, полежать на только что поглаженной одежде и помять её, проводить хозяйку и лечь спать.</p>
+            <p>Получить обнимашки, полежать на поглаженной одежде, помять её, проводить хозяйку и спать.</p>
           </li>
           <div class="clearfix"></div>
         </ul>
 
         <ul class="method-list">
-          <li class="list1_img"><img src="img/макс10.jpg" class="img-responsive" alt="Ждёт"></li>
+          <li class="list1_img"><img src="img/10.jpg" class="img-responsive" alt="Ожидание"></li>
           <li class="list1_desc">
-            <h3>🏫 Днём — Дождаться из вуза</h3>
-            <p>Делать важные котячьи дела, очень сильно устать, встретить хозяйку и получить очередную порцию обнимашек.</p>
+            <h3>🏫 Днём — Жду из вуза</h3>
+            <p>Делаю важные дела, сильно устаю, встречаю хозяйку и получаю обнимашки.</p>
           </li>
           <div class="clearfix"></div>
         </ul>
 
         <ul class="method-list">
-          <li class="list1_img"><img src="img/макс6.jpg" class="img-responsive" alt="Угарный взгляд"></li>
+          <li class="list1_img"><img src="img/6.jpg" class="img-responsive" alt="Ночь"></li>
           <li class="list1_desc">
-            <h3>🌙 Вечер и ночь — Тыгыдык</h3>
-            <p>Валяться весь оставшийся вечер, набираться сил на ночной тыгыдык. Бегать по коридору с 23:00 до 02:00.</p>
+            <h3>🌙 Вечер — Тыгыдык</h3>
+            <p>Валяюсь весь вечер, набираюсь сил на ночной тыгыдык. Бегаю с 23:00 до 02:00.</p>
           </li>
           <div class="clearfix"></div>
         </ul>
       </div>
     </div>
 
-    <!-- ========= МЕДИА ========= -->
     <div id="work">
-      <div class="row" style="text-align:center;">
-        <h2>📸 Милые фото котика 📸</h2>
-        <p class="lead">Лучшие кадры Макса</p>
+      <div class="row" style="text-align:center; background:#f35e59; color:#fff;">
+        <h2>📸 Милые фото</h2>
+        <p class="lead">Мои лучшие кадры</p>
         <hr />
         
         <ul class="work-list">
           <li class="work_desc"><h3>Балдеж</h3></li>
-          <li class="work_img"><img src="img/макс8.jpg" class="img-responsive" alt="Балдежно лежит"></li>
+          <li class="work_img"><img src="img/8.jpg" class="img-responsive" alt="Фото"></li>
           <div class="clearfix"></div>
         </ul>
 
         <ul class="work-list">
           <li class="work_desc"><h3>В такси</h3></li>
-          <li class="work_img"><img src="img/макс9.jpg" class="img-responsive" alt="В сумке"></li>
+          <li class="work_img"><img src="img/9.jpg" class="img-responsive" alt="Фото"></li>
           <div class="clearfix"></div>
         </ul>
 
         <ul class="work-list">
-          <li class="work_desc"><h3>Глажу его</h3></li>
-          <li class="work_img"><img src="img/макс11.jpg" class="img-responsive" alt="Глажу"></li>
+          <li class="work_desc"><h3>Глажу</h3></li>
+          <li class="work_img"><img src="img/11.jpg" class="img-responsive" alt="Фото"></li>
           <div class="clearfix"></div>
         </ul>
 
         <ul class="work-list">
-          <li class="work_desc"><h3>Угарный взгляд</h3></li>
-          <li class="work_img"><img src="img/макс12.jpg" class="img-responsive" alt="Угар"></li>
+          <li class="work_desc"><h3>Угар</h3></li>
+          <li class="work_img"><img src="img/12.jpg" class="img-responsive" alt="Фото"></li>
           <div class="clearfix"></div>
         </ul>
       </div>
     </div>
   </div>
 
-  <!-- ========= ПОДВАЛ ========= -->
   <footer>
-    <div style="text-align:right; padding:1em;">
-      <i class="fa fa-paw"></i> Сайт кота Макса — все права защищены (особенно право на тыгыдык)<br>
+    <div style="text-align:right; background:#2a2a2a; padding:1em; color:#fff;">
+      <i class="fa fa-paw"></i> Сайт кота Макса — все права защищены<br>
       © Настя + Макс | 2025-2026
     </div>
   </footer>
