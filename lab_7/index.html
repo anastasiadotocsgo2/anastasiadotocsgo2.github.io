@@ -59,6 +59,25 @@
         text-align: center;
       }
     }
+    
+    .cat-title {
+      color: #ff1493;
+    }
+    
+    .cat-subtitle {
+      color: #8B4513;
+    }
+    
+    .about-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+    
+    .col-md-4 {
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -105,10 +124,10 @@
       <img src="images/2.jpg" style="width:100%;" alt="Кот Макс">
       <div id="bannertext" style="position:absolute; top:10%; width:100%; text-align:center; color:white;">
         <div class="hidden-xs">
-          <h1>Кот Макс<br><small style="color: #ffd700;">Главный по дивану</small></h1>
+          <h1><span class="cat-title">Кот Макс</span><br><small class="cat-subtitle" style="color: #ffd700;">Главный по дивану</small></h1>
         </div>
         <div class="hidden-sm hidden-md hidden-lg">
-          <p class="lead">Кот Макс — лучший друг</p>
+          <p class="lead"><span class="cat-title">Кот Макс</span> — лучший друг</p>
         </div>
         <a class="btn btn-danger btn-lg">Почесать за ушком</a>
       </div>
@@ -121,17 +140,17 @@
         <hr />
         
         <div class="col-md-4">
-          <img src="images/13.jpg" style="width:150px;">
+          <img src="images/13.jpg" class="about-img">
           <h3>Макс + Настя</h3>
           <p><strong>14 лет</strong><br>Знак зодиака: Скорпион<br>Родился: 30.10.2011</p>
         </div>
         <div class="col-md-4">
-          <img src="images/7.jpg" style="width:150px;">
+          <img src="images/7.jpg" class="about-img">
           <h3>Характер</h3>
           <p>Могу носить волосы как челку. Ем только из маминой тарелки. Очень привередливый.</p>
         </div>
         <div class="col-md-4">
-          <img src="images/3.jpg" style="width:150px;">
+          <img src="images/3.jpg" class="about-img">
           <h3>Наглый, но любимый</h3>
           <p>Лежу на одежде, требую внимания, периодически абьюжу. Но меня всё равно обожают.</p>
         </div>
